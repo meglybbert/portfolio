@@ -54,10 +54,22 @@ li{
   border-top: solid black 3px;
 }
 
+.nav{
+  margin-bottom: 2em;
+}
+.workOne{
+  margin-bottom: 2em;
+}
+
+.example{
+  margin-bottom: 1em;
+}
+
 .about-segment,
 .follow-segment,
 .contact-segment{
   border-top: solid black 3px;
+  margin-bottom: 2em;
 }
 
 h2{
@@ -83,6 +95,17 @@ h2{
 
 .follow{
   left: 50%;
+}
+
+.logolinks{
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  width: 5em;
+  height: 5em;
+  margin: 1em;
 }
 
 .contact{

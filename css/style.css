@@ -1,0 +1,107 @@
+body{
+  margin: auto;
+}
+
+.header{
+  background-image: url('http://i.imgur.com/CzXWk4z.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 4em;
+  padding-bottom: .001em;
+}
+
+h1,
+p{
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+h1{
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+  border-top: black solid 3px;
+}
+
+li{
+  display: inline;
+  padding-top: 1em;
+  padding-left: .5em;
+  padding-right: .5em;
+  position: relative;
+  top: -3px;
+  width: 25%;
+  text-align: center;
+}
+
+.highlight{
+  border-top: solid gold 3px;
+}
+
+.lowlight{
+  border-top: solid black 3px;
+}
+
+.about-segment,
+.follow-segment,
+.contact-segment{
+  border-top: solid black 3px;
+}
+
+h2{
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.about,
+.contact,
+.follow{
+  width: 25%;
+  text-align: center;
+  border-top: solid gold 3px;
+  padding-top: 1em;
+  margin-top: 0;
+  position: relative;
+  top: -3px;
+}
+
+.about{
+  left: 25%;
+}
+
+.follow{
+  left: 50%;
+}
+
+.contact{
+  left: 75%;
+}
+
+p{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.email{
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  background-color: gold;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  justify-content: center;
+}
